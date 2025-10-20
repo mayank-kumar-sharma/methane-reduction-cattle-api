@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: cattle-methane-api
+    env: docker
+    plan: free
+    autoDeploy: true
